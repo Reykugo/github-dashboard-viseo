@@ -1,0 +1,19 @@
+.navbar{
+
+    position: fixed;
+    width:100%;
+    height: $navbarHeight;
+    padding: 0px 10px;
+    background-color: $navbarColor;
+
+    .title{
+        text-align: center;
+        color:white;
+        font-weight: bold
+    }
+
+    .menu-icon{
+        color: white;
+        cursor: pointer;
+    }
+}
