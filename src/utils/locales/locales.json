@@ -7,5 +7,10 @@
     "search":{
         "FR": "Rechercher",
         "EN": "Search"    
+    },
+
+    "username":{
+        "FR": "Nom d'utilisateur",
+        "EN":"Username"
     }
 }

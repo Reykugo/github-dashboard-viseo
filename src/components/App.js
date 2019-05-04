@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navbar from "./navbar/Navbar";
+import Routes from '../routes';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header>
         <Navbar />
       </header>
+      <Routes />
     </div>
   );
 }
