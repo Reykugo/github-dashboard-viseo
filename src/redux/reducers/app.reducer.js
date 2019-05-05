@@ -1,8 +1,9 @@
-import { SET_LANGUAGE, SET_CURRENT_USER } from '../../utils/CONST';
+import { SET_LANGUAGE, SET_CURRENT_USER, SET_CURRENT_PROJECT } from '../../utils/CONST';
 
 const intialState = {
     language: "EN",
-    currentUser: null
+    currentUser: null,
+    currentProject: null,
 }
 
 export default (state = intialState, action = {}) => {
@@ -18,6 +19,13 @@ export default (state = intialState, action = {}) => {
                 ...state,
                 currentUser: action.user
             }
+
+        case SET_CURRENT_PROJECT: {
+            return {
+                ...state,
+                currentProject: action.project
+            }
+        }
         default: return state;
     }
 }
