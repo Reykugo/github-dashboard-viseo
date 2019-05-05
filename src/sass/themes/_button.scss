@@ -1,0 +1,25 @@
+.btn{
+    border:none;
+    background-color:none;
+    cursor:pointer;
+
+    &:focus {outline:0;}
+
+    &-bold{
+        padding: 5px 10px;
+        font-weight: bold
+    }
+
+    &-color-white{
+        color:white;
+    }
+
+    &-bcolor-pink{
+        background-color: #F74582;
+    }
+
+    &:disabled{
+        color: lightgray;
+        background-color: grey;
+    }
+}

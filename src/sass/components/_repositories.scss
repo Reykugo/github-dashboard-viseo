@@ -1,0 +1,30 @@
+.repositories{
+    .user{
+        box-sizing: border-box;
+        background-color:lightgray;
+        border-radius: 30px;
+        .avatar{
+            margin-right:10px;
+            img{
+                width:30px;
+                height:30px;
+                border-radius: 50%;
+            }
+        }
+        .login{
+            margin-right:10px;
+        }
+    }
+
+    .list{
+        margin-top: 20px;
+        width: 100%;
+        .repo{
+            height: 30px;
+            text-align:center;
+            &:hover{
+                background-color: lightgray;
+            }
+        }
+    }
+}
